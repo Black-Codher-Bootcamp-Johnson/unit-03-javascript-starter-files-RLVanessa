@@ -17,3 +17,11 @@ function conversation() {
 }
 conversation();
 
+function futureAge(x, y){
+const answer = x + y;
+console.log(answer)
+return answer 
+console.log(x)
+console.log(y)
+}
+futureAge(3, 15)
