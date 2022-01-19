@@ -17,11 +17,11 @@ function conversation() {
 }
 conversation();
 
-function futureAge(x, y){
-const answer = x + y;
-console.log(answer)
-return answer 
+function futureAge(x, y) {
 console.log(x)
 console.log(y)
+const answer = x + 5;
+console.log(y + " Your age in 5 years time will be..." + answer)
+return y + " Your age in 5 years time will be..." + answer; 
 }
-futureAge(3, 15)
+futureAge(17, "Myra")
